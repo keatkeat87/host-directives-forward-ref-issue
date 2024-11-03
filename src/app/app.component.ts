@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ChildDirective } from './child.directive';
 import { ParentComponent } from './parent.component';
+import { ChildDirective } from './child.directive';
 
 @Component({
   selector: 'app-root',
