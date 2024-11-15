@@ -3,12 +3,11 @@ import { ChildDirective } from './child.directive';
 import { ParentComponent } from './parent.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  template: `
+    selector: 'app-root',
+    template: `
     <app-parent />
     <p appChild>app works!</p>
   `,
-  imports: [ParentComponent, ChildDirective],
+    imports: [ParentComponent, ChildDirective]
 })
 export class AppComponent {}
